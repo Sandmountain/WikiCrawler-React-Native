@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { Text, View, ScrollView, Clipboard, StyleSheet } from "react-native";
 import BackgroundTimer from "react-native-background-timer";
-import { setQuery } from "../../Actions/gameDataAction";
+import { setQuery, getArticles } from "../../Actions/gameDataAction";
 import { connect } from "react-redux";
-import { Button } from "react-native-elements";
 
 import Articles from "../Articles/Articles";
-
+import Header from "../Header/HeaderBody";
 // https://github.com/ocetnik/react-native-background-timer
 
 /*
@@ -39,24 +38,10 @@ class MainBody extends Component {
     });
     return (
       <View>
+        <Header />
         <ScrollView>
           <Articles />
         </ScrollView>
-        <View
-          style={{
-            position: "absolute",
-            bottom: 0,
-            width: "100%",
-            alignSelf: "center"
-          }}
-        >
-          <Button
-            title={this.state.query}
-            buttonStyle={styles.defaultButton}
-            onPress={() => this.updateButton()}
-            //buttonStyle={}
-          />
-        </View>
       </View>
     );
   }
@@ -85,6 +70,7 @@ class MainBody extends Component {
     } else {
       //Call update cards here because the word has been confirmed in (this.props.query)
       if (this.state.confirmeValue == 1) {
+        await this.props.getArticles(this.props.query);
         this.setState({ confirmeValue: 0 });
       }
 
@@ -106,10 +92,12 @@ class MainBody extends Component {
 }
 
 const mapStateToProps = state => ({
-  query: state.gameData.query
+  query: state.gameData.query,
+  articles: state.gameData.articles,
+  loadingArticles: state.gameData.loadingArticles
 });
 
 export default connect(
   mapStateToProps,
-  { setQuery }
+  { setQuery, getArticles }
 )(MainBody);

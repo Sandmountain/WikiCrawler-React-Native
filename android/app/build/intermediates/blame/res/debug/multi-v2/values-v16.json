@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Viktor\\Desktop\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\WikiCrawlerNative\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viktor\\.gradle\\caches\\transforms-2\\files-2.1\\b7be15cb5a1e3dd104977613ee79ba4a\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\1b722e960fc93a4a2d47fe65084af3a8\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Viktor\\.gradle\\caches\\transforms-2\\files-2.1\\ee1da347a6ad6eda198334455cb8f72a\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\82fa172046984109ee38712ffe6e7667\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

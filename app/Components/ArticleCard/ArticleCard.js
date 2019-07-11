@@ -1,31 +1,54 @@
 import React, { Component } from "react";
-import { Text, View, StyleSheet, Clipboard } from "react-native";
+import { Text, View, StyleSheet, Clipboard, WebView } from "react-native";
 import { connect } from "react-redux";
-import { setQuery } from "../../Actions/gameDataAction";
+import { setQuery, getArticles } from "../../Actions/gameDataAction";
+import { SelectableText } from "@astrocoders/react-native-selectable-text";
+import HTML from "react-native-render-html";
 
 class ArticleCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selection: [0, 0],
-      text: props.article.text,
-      title: props.article.title,
+      text: "",
+      title: "",
       currentClipBoard: "value",
       query: ""
     };
   }
   render() {
-    return (
-      <View style={styles.body} selectable>
+    return this.props.pro ? (
+      <View style={styles.body}>
         <View style={styles.image} />
-        <Text style={styles.title} selectable>
-          {this.state.title}
-        </Text>
 
-        <Text selectable>{this.state.text}</Text>
+        <SelectableText
+          menuItems={["Search Article"]}
+          onSelection={({ content }) => {
+            this.searchingConetent(content);
+          }}
+          value={this.props.pro.title}
+          style={styles.title}
+        />
+        <SelectableText
+          menuItems={["Search Article"]}
+          onSelection={({ content }) => {
+            this.searchingConetent(content);
+          }}
+          appendToChildren={""}
+          value={this.props.pro.text}
+        />
+        {/*<HTML html={this.props.pro.text} textSelectable />*/}
+      </View>
+    ) : (
+      <View>
+        <Text> Something went wrong...</Text>
       </View>
     );
   }
+
+  searchingConetent(query) {
+    this.props.setQuery(query);
+  }
+
   /*
   onClipBoardChange = async () => {
     var clipboardValue = await Clipboard.getString();
@@ -38,17 +61,24 @@ class ArticleCard extends Component {
 const styles = StyleSheet.create({
   image: {
     height: 100,
-    width: 80,
+    width: "100%",
 
     backgroundColor: "black",
     position: "relative"
   },
-  title: { fontSize: 30, position: "absolute", marginLeft: 80, marginTop: 10 },
+  title: {
+    fontSize: 30,
+
+    right: 0,
+    paddingRight: 5
+  },
   text: {},
+
   body: {
     minHeight: 200,
     maxWidth: 500,
     backgroundColor: "grey",
+
     margin: 5,
     marginBottom: 0,
     padding: 5
@@ -56,12 +86,13 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = state => ({
-  query: state.gameData.query
+  query: state.gameData.query,
+  loadingArticles: state.gameData.loadingArticles
 });
 
 export default connect(
   mapStateToProps,
-  { setQuery }
+  { setQuery, getArticles }
 )(ArticleCard);
 
 /*

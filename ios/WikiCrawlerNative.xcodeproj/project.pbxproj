@@ -57,6 +57,7 @@
 		E98E418E93C9479D99B8168B /* libRNBackgroundTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86218A5A44D1478CA13F2DE5 /* libRNBackgroundTimer.a */; };
 		BF64341860B346FC82FDDCA3 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE14C1EF213E4C898E2F2C9D /* libRNVectorIcons.a */; };
 		0A4B9697E6AA426BBE3B6422 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4626C7F99B7842B1967396E8 /* libRNVectorIcons-tvOS.a */; };
+		5DCAA4B8CCEE4D3DA147EE7B /* libRNSelectableText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C3D936F92A49CC86662167 /* libRNSelectableText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,6 +385,8 @@
 		9599502F431448E2A41FE499 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		AE14C1EF213E4C898E2F2C9D /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		4626C7F99B7842B1967396E8 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; name = "libRNVectorIcons-tvOS.a"; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		9A7AE974F4C14BA1834CB13F /* RNSelectableText.xcodeproj */ = {isa = PBXFileReference; name = "RNSelectableText.xcodeproj"; path = "../node_modules/@astrocoders/react-native-selectable-text/ios/RNSelectableText.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		42C3D936F92A49CC86662167 /* libRNSelectableText.a */ = {isa = PBXFileReference; name = "libRNSelectableText.a"; path = "libRNSelectableText.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +417,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				E98E418E93C9479D99B8168B /* libRNBackgroundTimer.a in Frameworks */,
 				BF64341860B346FC82FDDCA3 /* libRNVectorIcons.a in Frameworks */,
+				5DCAA4B8CCEE4D3DA147EE7B /* libRNSelectableText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +610,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				CD061A8BFF1E41C58D570C46 /* RNBackgroundTimer.xcodeproj */,
 				9599502F431448E2A41FE499 /* RNVectorIcons.xcodeproj */,
+				9A7AE974F4C14BA1834CB13F /* RNSelectableText.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1273,13 +1278,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Debug;
@@ -1302,13 +1306,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Release;
@@ -1333,6 +1336,7 @@
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Debug;
@@ -1356,6 +1360,7 @@
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Release;
@@ -1386,13 +1391,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Debug;
@@ -1423,13 +1427,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Release;
@@ -1459,13 +1462,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Debug;
@@ -1495,13 +1497,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-background-timer\ios",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
+					"$(SRCROOT)\..\node_modules\@astrocoders\react-native-selectable-text\ios",
 				);
 			};
 			name = Release;

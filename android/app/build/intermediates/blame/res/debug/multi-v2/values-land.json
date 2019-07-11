@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Viktor\\Desktop\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\WikiCrawlerNative\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Viktor\\.gradle\\caches\\transforms-2\\files-2.1\\b7be15cb5a1e3dd104977613ee79ba4a\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\1b722e960fc93a4a2d47fe65084af3a8\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
