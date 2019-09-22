@@ -17,3 +17,5 @@ Starta emul eller kör från android studio
 cd F:\Program\AndroidSDK\tools
 \.emulator -avd Nexus_5X_API_27
 
+settings i emulator :
+Ctrl + m

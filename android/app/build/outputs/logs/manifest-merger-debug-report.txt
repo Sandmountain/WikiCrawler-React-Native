@@ -1,224 +1,260 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f336a4c089363b0bd4f105f5d77fbd7c\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b722e960fc93a4a2d47fe65084af3a8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\02d525009caad65afd515873deb1a9bf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\062773e61825a8114bfdff6ac9c56f4b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\9695cbb4603881ff57bc8276c58488c8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a8014ed557e2664432dfb2e3543f41df\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\78a07b5c892ed12f5f63d160d457001f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3fc4913f211170d41f947d46d4b367e3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d4ee4f64d4d2840df8ea1d8888c51d7b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d7b1e4bf8fe9471998158a9ebd2cd358\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\80ce82555b3dc190c7134c83be1d1bd0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\653427fdfd6b095fd223382a955156f5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b01d2612135afeedeb92d84a99f7b74\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6cb0ecff0953bf1a1699071df19e2254\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d04353f802dcf74e799e8f2b05b96631\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\eaabb2c3739aeef8f33442be5fec1df4\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e639c54c6552c2dc9a520242ad33904d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d08f6eda7dfcd8457ab49a4ef8011922\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\ebaf66852f70e19070df7356be989977\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7677ceeee3f68516cacc94d77909f657\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\98d3acc68ce9e53298016e987250836c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2e90d856e697e939b6356743ac2fb03f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b26fa6e971a41446b5e51245eb21e20d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b3a0a17a6b41abb53a4c3de094f22a36\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1f2fee263ebfe6d9a609c23440182517\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1992299394bbe22ba7ca6f741081fdeb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\586597b7a652163923a5da81cb0c5ecb\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8a50983bd84e25c75f270b91f388d5a3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b1ba40b7d048707df084bb03aacf4c3b\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\049b3bd406190344346d1bad28b0918a\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5f3ae409691043fd53f673c376015d7d\AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2d80da20811c456987b8ad0acf4adbc0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e84c5f2489af13711758a5684c7d49e2\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:2:1-8:12
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-navigation-bar-color] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-navigation-bar-color\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:react-native-svg] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\006eea5c09820970896e5f8265d3741b\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cfd7a2aeae4ee21cf5e7e22850f1a369\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e2ad80466eb8db1ccb548af0dc4458aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2ae4a768107c82745ed3022197f3ae4f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\16fa2701091d4fe795274f3a3e8dd862\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f781dc133844c1dd0e5977bc13c69197\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d77e63617c13a8714a43f5c0f1f0f17\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\625136e06d75926ab53fa8a2506d478a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\208bca2aac21760e61085a6cbb0c72e9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bda8b458c4928894aec8f990f8ff3933\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\44788b20846b5377c6ec58d909644531\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f06b09bcfd9d566942203e48fce7386a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3aa32228d2c69e351c5d25bc06a6ee90\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d7cec0952e014ae888eac21ef7648aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6ed90a7bace1c41d5e5f8483ac19e857\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3df07b6fe9f269a3761b557704260071\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d50453669d9239cc02cc5abae1c1daae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\54d88ce469e26b4c94c6bfcc10ab621a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\12fc92ffa847e915549bef07bb1f8de3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\55893eb4ef26e55479fcaf7e3657134a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6414f1bb3f4f1913f236ff4d2f355499\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5c8c0e9cd9bd38f9a9645c063e987d71\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\50a527d53f60353b8363fa8131de46a1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bef446551292f668a6487686cf840d86\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\81784c47543e1f9b65240d4071e88a3b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8505fe7a029416c271d0d865563fbce2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\595b30713024908a01c1ac310705b2f7\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2bba6fc9d8692846b9547b6bf0c54b15\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cdfb537f5ccf95d4eb93d9c1f6723a17\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b2038ad4d66bf2e988890e9964fdf7f0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2595fccfda0993a6b4e73ded268d7538\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e805d1b2f18bb65743e945acb73ac6a1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7893104e0e5175e8f2b5af9dfd1beac4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8846b09009393ad267960ec08396ff55\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\280bb99e4f55c82a8cbed738512a6703\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\51b7c6e6f3993d8b934c0157630b342d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a9ce4a5e3bf55938703dfa874d901380\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\01345a62fd494d550f80267a68e7a00f\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:2:1-8:12
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:2:3-34
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:2:3-34
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:2:3-27
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:2:3-27
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f336a4c089363b0bd4f105f5d77fbd7c\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f336a4c089363b0bd4f105f5d77fbd7c\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\eaabb2c3739aeef8f33442be5fec1df4\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\eaabb2c3739aeef8f33442be5fec1df4\AndroidManifest.xml:22:5-23:19
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2d80da20811c456987b8ad0acf4adbc0\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2d80da20811c456987b8ad0acf4adbc0\AndroidManifest.xml:11:5-20
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\006eea5c09820970896e5f8265d3741b\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\006eea5c09820970896e5f8265d3741b\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\44788b20846b5377c6ec58d909644531\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\44788b20846b5377c6ec58d909644531\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\595b30713024908a01c1ac310705b2f7\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\595b30713024908a01c1ac310705b2f7\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:8:7-39
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:7:75-114
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:10:7-52
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:7:54-74
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:9:7-41
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:11:7-34
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:12:7-38
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:7:18-53
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:7:7-38
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:7:7-38
-activity#com.wikicrawlernative.MainActivity
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:13:7-22:18
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:7:7-38
+activity#com.projectpls.MainActivity
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:13:7-23:18
+	android:screenOrientation
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:17:9-45
 	android:label
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:18:9-51
 	android:configChanges
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:18:9-21:25
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:19:9-22:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:20:13-65
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:21:13-73
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:21:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:23:7-84
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:24:7-84
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml:24:17-81
 uses-sdk
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f336a4c089363b0bd4f105f5d77fbd7c\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.59.9] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f336a4c089363b0bd4f105f5d77fbd7c\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b722e960fc93a4a2d47fe65084af3a8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b722e960fc93a4a2d47fe65084af3a8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\02d525009caad65afd515873deb1a9bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\02d525009caad65afd515873deb1a9bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\062773e61825a8114bfdff6ac9c56f4b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\062773e61825a8114bfdff6ac9c56f4b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\9695cbb4603881ff57bc8276c58488c8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\9695cbb4603881ff57bc8276c58488c8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a8014ed557e2664432dfb2e3543f41df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a8014ed557e2664432dfb2e3543f41df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\78a07b5c892ed12f5f63d160d457001f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\78a07b5c892ed12f5f63d160d457001f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3fc4913f211170d41f947d46d4b367e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3fc4913f211170d41f947d46d4b367e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d4ee4f64d4d2840df8ea1d8888c51d7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d4ee4f64d4d2840df8ea1d8888c51d7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d7b1e4bf8fe9471998158a9ebd2cd358\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d7b1e4bf8fe9471998158a9ebd2cd358\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\80ce82555b3dc190c7134c83be1d1bd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\80ce82555b3dc190c7134c83be1d1bd0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\653427fdfd6b095fd223382a955156f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\653427fdfd6b095fd223382a955156f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b01d2612135afeedeb92d84a99f7b74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1b01d2612135afeedeb92d84a99f7b74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6cb0ecff0953bf1a1699071df19e2254\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6cb0ecff0953bf1a1699071df19e2254\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d04353f802dcf74e799e8f2b05b96631\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d04353f802dcf74e799e8f2b05b96631\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\82fa172046984109ee38712ffe6e7667\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\eaabb2c3739aeef8f33442be5fec1df4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\eaabb2c3739aeef8f33442be5fec1df4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e639c54c6552c2dc9a520242ad33904d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e639c54c6552c2dc9a520242ad33904d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d08f6eda7dfcd8457ab49a4ef8011922\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d08f6eda7dfcd8457ab49a4ef8011922\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\ebaf66852f70e19070df7356be989977\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\ebaf66852f70e19070df7356be989977\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7677ceeee3f68516cacc94d77909f657\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7677ceeee3f68516cacc94d77909f657\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\98d3acc68ce9e53298016e987250836c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\98d3acc68ce9e53298016e987250836c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2e90d856e697e939b6356743ac2fb03f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2e90d856e697e939b6356743ac2fb03f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b26fa6e971a41446b5e51245eb21e20d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b26fa6e971a41446b5e51245eb21e20d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b3a0a17a6b41abb53a4c3de094f22a36\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b3a0a17a6b41abb53a4c3de094f22a36\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1f2fee263ebfe6d9a609c23440182517\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1f2fee263ebfe6d9a609c23440182517\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1992299394bbe22ba7ca6f741081fdeb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1992299394bbe22ba7ca6f741081fdeb\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\586597b7a652163923a5da81cb0c5ecb\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\586597b7a652163923a5da81cb0c5ecb\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8a50983bd84e25c75f270b91f388d5a3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8a50983bd84e25c75f270b91f388d5a3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b1ba40b7d048707df084bb03aacf4c3b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b1ba40b7d048707df084bb03aacf4c3b\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\049b3bd406190344346d1bad28b0918a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\049b3bd406190344346d1bad28b0918a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5f3ae409691043fd53f673c376015d7d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5f3ae409691043fd53f673c376015d7d\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2d80da20811c456987b8ad0acf4adbc0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2d80da20811c456987b8ad0acf4adbc0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e84c5f2489af13711758a5684c7d49e2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e84c5f2489af13711758a5684c7d49e2\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:@astrocoders_react-native-selectable-text] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\@astrocoders\react-native-selectable-text\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation-bar-color] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-navigation-bar-color\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation-bar-color] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-navigation-bar-color\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-spinkit] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-spinkit\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\006eea5c09820970896e5f8265d3741b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\006eea5c09820970896e5f8265d3741b\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cfd7a2aeae4ee21cf5e7e22850f1a369\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cfd7a2aeae4ee21cf5e7e22850f1a369\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e2ad80466eb8db1ccb548af0dc4458aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e2ad80466eb8db1ccb548af0dc4458aa\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2ae4a768107c82745ed3022197f3ae4f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2ae4a768107c82745ed3022197f3ae4f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\16fa2701091d4fe795274f3a3e8dd862\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\16fa2701091d4fe795274f3a3e8dd862\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f781dc133844c1dd0e5977bc13c69197\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f781dc133844c1dd0e5977bc13c69197\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d77e63617c13a8714a43f5c0f1f0f17\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d77e63617c13a8714a43f5c0f1f0f17\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\625136e06d75926ab53fa8a2506d478a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\625136e06d75926ab53fa8a2506d478a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\208bca2aac21760e61085a6cbb0c72e9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\208bca2aac21760e61085a6cbb0c72e9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bda8b458c4928894aec8f990f8ff3933\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bda8b458c4928894aec8f990f8ff3933\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\44788b20846b5377c6ec58d909644531\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\44788b20846b5377c6ec58d909644531\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f06b09bcfd9d566942203e48fce7386a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\f06b09bcfd9d566942203e48fce7386a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3aa32228d2c69e351c5d25bc06a6ee90\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ybq:Android-SpinKit:1.2.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3aa32228d2c69e351c5d25bc06a6ee90\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d7cec0952e014ae888eac21ef7648aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\1d7cec0952e014ae888eac21ef7648aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6ed90a7bace1c41d5e5f8483ac19e857\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6ed90a7bace1c41d5e5f8483ac19e857\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3df07b6fe9f269a3761b557704260071\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\3df07b6fe9f269a3761b557704260071\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d50453669d9239cc02cc5abae1c1daae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\d50453669d9239cc02cc5abae1c1daae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\54d88ce469e26b4c94c6bfcc10ab621a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\54d88ce469e26b4c94c6bfcc10ab621a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\12fc92ffa847e915549bef07bb1f8de3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\12fc92ffa847e915549bef07bb1f8de3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\55893eb4ef26e55479fcaf7e3657134a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\55893eb4ef26e55479fcaf7e3657134a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6414f1bb3f4f1913f236ff4d2f355499\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6414f1bb3f4f1913f236ff4d2f355499\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5c8c0e9cd9bd38f9a9645c063e987d71\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\5c8c0e9cd9bd38f9a9645c063e987d71\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\50a527d53f60353b8363fa8131de46a1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\50a527d53f60353b8363fa8131de46a1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bef446551292f668a6487686cf840d86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\bef446551292f668a6487686cf840d86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\81784c47543e1f9b65240d4071e88a3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\81784c47543e1f9b65240d4071e88a3b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8505fe7a029416c271d0d865563fbce2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8505fe7a029416c271d0d865563fbce2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\6f7402bcc7c1f3485c3b30bad5c04b05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\595b30713024908a01c1ac310705b2f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\595b30713024908a01c1ac310705b2f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2bba6fc9d8692846b9547b6bf0c54b15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2bba6fc9d8692846b9547b6bf0c54b15\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cdfb537f5ccf95d4eb93d9c1f6723a17\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\cdfb537f5ccf95d4eb93d9c1f6723a17\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b2038ad4d66bf2e988890e9964fdf7f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\b2038ad4d66bf2e988890e9964fdf7f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2595fccfda0993a6b4e73ded268d7538\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\2595fccfda0993a6b4e73ded268d7538\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e805d1b2f18bb65743e945acb73ac6a1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\e805d1b2f18bb65743e945acb73ac6a1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7893104e0e5175e8f2b5af9dfd1beac4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\7893104e0e5175e8f2b5af9dfd1beac4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8846b09009393ad267960ec08396ff55\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\8846b09009393ad267960ec08396ff55\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\280bb99e4f55c82a8cbed738512a6703\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\280bb99e4f55c82a8cbed738512a6703\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\51b7c6e6f3993d8b934c0157630b342d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\51b7c6e6f3993d8b934c0157630b342d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a9ce4a5e3bf55938703dfa874d901380\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\a9ce4a5e3bf55938703dfa874d901380\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\01345a62fd494d550f80267a68e7a00f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Natteravn 2.0\.gradle\caches\transforms-2\files-2.1\01345a62fd494d550f80267a68e7a00f\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\android\app\src\debug\AndroidManifest.xml:5:22-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+ADDED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\WikiCrawlerNative\WikiCrawler-React-Native\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+		ADDED from [:react-native-background-timer] C:\Users\Natteravn 2.0\Desktop\install pl\projectpls\node_modules\react-native-background-timer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65

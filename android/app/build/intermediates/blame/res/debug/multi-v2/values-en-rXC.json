@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\WikiCrawlerNative\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\install pl\\projectpls\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\1b722e960fc93a4a2d47fe65084af3a8\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\e2ad80466eb8db1ccb548af0dc4458aa\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\82fa172046984109ee38712ffe6e7667\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\6f7402bcc7c1f3485c3b30bad5c04b05\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

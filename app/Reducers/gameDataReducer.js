@@ -2,16 +2,18 @@ import {
   SET_QUERY,
   GET_QUERY,
   GET_SEARCH_RESULTS,
-  LOADING_ARTICLES
-} from "../Actions/types";
+  LOADING_ARTICLES,
+} from '../Actions/types';
 
 const initialState = {
-  query: "",
+  query: '',
   missedArticle: 0,
-  goalArticle: "",
-  startArticle: "",
+  numberOfClicks: 0,
+  goalArticle: '',
+  startArticle: '',
   articles: [],
-  loadingArticles: false
+  visitedArticles: [],
+  loadingArticles: false,
 };
 
 export default function(state = initialState, action) {
@@ -19,18 +21,19 @@ export default function(state = initialState, action) {
     case SET_QUERY:
       return {
         ...state,
-        query: action.payload
+        query: action.payload,
+        numberOfClicks: state.numberOfClicks + 1,
       };
     case GET_SEARCH_RESULTS:
       return {
         ...state,
         articles: action.payload,
-        loadingArticles: false
+        loadingArticles: false,
       };
     case LOADING_ARTICLES:
       return {
         ...state,
-        loadingArticles: true
+        loadingArticles: true,
       };
     default:
       return state;

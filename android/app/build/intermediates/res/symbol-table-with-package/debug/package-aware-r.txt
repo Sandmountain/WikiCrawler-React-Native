@@ -1,4 +1,4 @@
-com.wikicrawlernative
+com.projectpls
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -17,6 +17,9 @@ anim catalyst_push_up_in
 anim catalyst_push_up_out
 anim catalyst_slide_down
 anim catalyst_slide_up
+attr SpinKitViewStyle
+attr SpinKit_Color
+attr SpinKit_Style
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -623,12 +626,30 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id ChasingDots
+id Circle
+id CubeGrid
+id DoubleBounce
 id FUNCTION
+id FadingCircle
+id FoldingCube
 id META
+id MultiplePulse
+id MultiplePulseRing
+id Pulse
+id PulseRing
+id RotatingCircle
+id RotatingPlane
 id SHIFT
 id SYM
+id ThreeBounce
+id WanderingCubes
+id Wave
+id accessibility_actions
 id accessibility_hint
+id accessibility_label
 id accessibility_role
+id accessibility_states
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -690,6 +711,7 @@ id fitXY
 id focusCrop
 id forever
 id fps_text
+id ghost_view
 id group_divider
 id home
 id homeAsUp
@@ -714,6 +736,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id parentPanel
+id parent_matrix
 id progress_circular
 id progress_horizontal
 id radio
@@ -723,7 +746,6 @@ id right_icon
 id right_side
 id rn_frame_file
 id rn_frame_method
-id rn_redbox_copy_button
 id rn_redbox_dismiss_button
 id rn_redbox_line_separator
 id rn_redbox_loading_indicator
@@ -731,6 +753,9 @@ id rn_redbox_reload_button
 id rn_redbox_report_button
 id rn_redbox_report_label
 id rn_redbox_stack
+id save_image_matrix
+id save_non_transition_alpha
+id save_scale_type
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -772,6 +797,11 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id transition_current_scene
+id transition_layout_save
+id transition_position
+id transition_scene_layoutid_cache
+id transition_transform
 id uniform
 id up
 id useLogo
@@ -783,6 +813,8 @@ integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
+integer react_native_dev_server_port
+integer react_native_inspector_proxy_port
 integer status_bar_notification_info_maxnum
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
@@ -868,7 +900,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string adjustable_description
+string alert_description
 string app_name
 string catalyst_copy_button
 string catalyst_debugjs
@@ -894,13 +926,31 @@ string catalyst_remotedbg_message
 string catalyst_report_button
 string catalyst_settings
 string catalyst_settings_title
+string combobox_description
 string header_description
-string image_button_description
 string image_description
+string imagebutton_description
 string link_description
+string menu_description
+string menubar_description
+string menuitem_description
+string progressbar_description
+string radiogroup_description
+string rn_tab_description
+string scrollbar_description
 string search_description
 string search_menu_title
+string spinbutton_description
+string state_busy_description
+string state_collapsed_description
+string state_expanded_description
+string state_off_description
+string state_on_description
 string status_bar_notification_info_overflow
+string summary_description
+string tablist_description
+string timer_description
+string toolbar_description
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1096,6 +1146,54 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SpinKitView
+style SpinKitView_ChasingDots
+style SpinKitView_Circle
+style SpinKitView_CubeGrid
+style SpinKitView_DoubleBounce
+style SpinKitView_FadingCircle
+style SpinKitView_FoldingCube
+style SpinKitView_Large
+style SpinKitView_Large_ChasingDots
+style SpinKitView_Large_Circle
+style SpinKitView_Large_CubeGrid
+style SpinKitView_Large_DoubleBounce
+style SpinKitView_Large_FadingCircle
+style SpinKitView_Large_FoldingCube
+style SpinKitView_Large_MultiplePulse
+style SpinKitView_Large_MultiplePulseRing
+style SpinKitView_Large_Pulse
+style SpinKitView_Large_PulseRing
+style SpinKitView_Large_RotatingCircle
+style SpinKitView_Large_RotatingPlane
+style SpinKitView_Large_ThreeBounce
+style SpinKitView_Large_WanderingCubes
+style SpinKitView_Large_Wave
+style SpinKitView_MultiplePulse
+style SpinKitView_MultiplePulseRing
+style SpinKitView_Pulse
+style SpinKitView_PulseRing
+style SpinKitView_RotatingCircle
+style SpinKitView_RotatingPlane
+style SpinKitView_Small
+style SpinKitView_Small_ChasingDots
+style SpinKitView_Small_Circle
+style SpinKitView_Small_CubeGrid
+style SpinKitView_Small_DoubleBounce
+style SpinKitView_Small_FadingCircle
+style SpinKitView_Small_FoldingCube
+style SpinKitView_Small_MultiplePulse
+style SpinKitView_Small_MultiplePulseRing
+style SpinKitView_Small_Pulse
+style SpinKitView_Small_PulseRing
+style SpinKitView_Small_RotatingCircle
+style SpinKitView_Small_RotatingPlane
+style SpinKitView_Small_ThreeBounce
+style SpinKitView_Small_WanderingCubes
+style SpinKitView_Small_Wave
+style SpinKitView_ThreeBounce
+style SpinKitView_WanderingCubes
+style SpinKitView_Wave
 style SpinnerDatePickerDialog
 style SpinnerDatePickerStyle
 style SpinnerTimePickerDialog
@@ -1305,6 +1403,7 @@ styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
+styleable SpinKitView SpinKit_Color SpinKit_Style
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable

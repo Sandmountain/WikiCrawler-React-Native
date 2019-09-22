@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\WikiCrawlerNative\\WikiCrawler-React-Native\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\Natteravn 2.0\\Desktop\\install pl\\projectpls\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\1b722e960fc93a4a2d47fe65084af3a8\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Natteravn 2.0\\.gradle\\caches\\transforms-2\\files-2.1\\e2ad80466eb8db1ccb548af0dc4458aa\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

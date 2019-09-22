@@ -1,25 +1,20 @@
-import {
-  SET_QUERY,
-  GET_QUERY,
-  GET_SEARCH_RESULTS,
-  LOADING_ARTICLES
-} from "./types";
+import {SET_QUERY, GET_SEARCH_RESULTS, LOADING_ARTICLES} from './types';
 
-const axios = require("axios");
+const axios = require('axios');
 
 export const setQuery = query => async dispatch => {
   try {
     dispatch({
       type: SET_QUERY,
-      payload: query
+      payload: query,
     });
   } catch (error) {
-    console.log("setQuery", error);
+    console.log('setQuery', error);
   }
 };
 
 export const setLoadingArticles = () => {
   return {
-    type: LOADING_ARTICLES
+    type: LOADING_ARTICLES,
   };
 };
