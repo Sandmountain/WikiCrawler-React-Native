@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Header} from 'react-native-elements';
-import {StyleSheet, StatusBar, View, Text} from 'react-native';
+import {Header, Icon} from 'react-native-elements';
+
+import {StyleSheet, StatusBar, View, Text, Image} from 'react-native';
 import Svg, {Defs, Ellipse, Stop, RadialGradient} from 'react-native-svg';
 
 export default class HeaderBody extends Component {
@@ -51,9 +52,38 @@ export default class HeaderBody extends Component {
             strokeOpacity="0.2"
           />
         </Svg>
+        {/*
+        <Image
+          style={{
+            alignSelf: 'center',
+            backgroundColor: 'transparent',
+            flex: 1,
+            height: undefined,
+            width: '90%',
+          }}
+          source={require('../../../app/Images/Logo2Transparent.png')}
+          resizeMode="contain"></Image>
+*/}
         <Header
           placement="center"
-          centerComponent={<Text> WikiCrawler Native </Text>}
+          centerComponent={
+            <Image
+              style={{
+                alignSelf: 'center',
+                backgroundColor: 'transparent',
+                flex: 1,
+                height: undefined,
+                width: '75%',
+                top: -3,
+              }}
+              source={require('../../../app/Images/Logo2TransparentLongWhite.png')}
+              resizeMode="contain"></Image>
+          }
+          rightComponent={
+            <View style={{top: -4}}>
+              <Icon name="user" size={33} type="evilicon" color="#fff"></Icon>
+            </View>
+          }
           containerStyle={{
             justifyContent: 'center',
             position: 'absolute',

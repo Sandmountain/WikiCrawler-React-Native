@@ -6,8 +6,10 @@ import {
   faPauseCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
-import {Button, Overlay} from 'react-native-elements';
+import {Button, Overlay, Tooltip} from 'react-native-elements';
+
 import {withNavigation} from 'react-navigation';
+import {connect} from 'react-redux';
 
 class RightComponent extends Component {
   constructor(props) {
@@ -37,7 +39,7 @@ class RightComponent extends Component {
           type="clear"
           style={{}}
           onPress={() => this.toggleOverlay()}></Button>
-
+        {/* MODAL*/}
         <Overlay
           isVisible={this.state.isVisible}
           windowBackgroundColor="rgba(0, 0, 0, .3)"
@@ -64,15 +66,23 @@ class RightComponent extends Component {
                   icon={faPauseCircle}
                   size={20}></FontAwesomeIcon>
                 <Text style={styles.header}>GAME PAUSED</Text>
+
                 <View style={{flexDirection: 'row'}}>
-                  <Text style={styles.searching}>SEARCHING FOR </Text>
-                  <Text style={styles.searchingArticle}>COWS </Text>
-                  {/* Använd Tooltip från elements */}
+                  <Tooltip
+                    withPointer={false}
+                    popover={<Text>{this.props.goalSummary}</Text>}>
+                    <Text style={styles.searching}>SEARCHING FOR </Text>
+                  </Tooltip>
+                  <Text style={styles.searchingArticle}>
+                    {this.props.goal}{' '}
+                  </Text>
+
+                  {/* TODO: Använd Tooltip från elements */}
+
                   <FontAwesomeIcon
                     style={{color: '#cccccc'}}
                     size={13}
-                    icon={faQuestionCircle}
-                    onPress={() => this.toggleOverlay()}></FontAwesomeIcon>
+                    icon={faQuestionCircle}></FontAwesomeIcon>
                 </View>
               </View>
               <View>
@@ -93,6 +103,7 @@ class RightComponent extends Component {
                     type="outline"
                     onPress={() => {
                       this.toggleOverlay();
+                      this.resetGame();
                       this.props.navigation.navigate('Home');
                     }}
                     containerStyle={{width: '50%', marginTop: 20}}
@@ -126,6 +137,10 @@ class RightComponent extends Component {
       </View>
     );
   }
+  //TODO: fix a reset game funciton
+  resetGame = () => {
+    console.log('reset variables');
+  };
 }
 const styles = StyleSheet.create({
   header: {
@@ -148,4 +163,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default withNavigation(RightComponent);
+const mapStateToProps = state => ({
+  query: state.gameData.query,
+  goal: state.gameData.goalArticle,
+  goalSummary: state.gameData.goalArticleSummary,
+});
+
+export default connect(mapStateToProps)(withNavigation(RightComponent));

@@ -60,7 +60,7 @@ export default class LargeIconButton extends Component {
         <Button
           titleStyle={{
             color: this.props.active === true ? '#ff0000' : '#000',
-            fontSize: 15,
+            fontSize: 14,
           }}
           onPress={() => this.sendData(this.props.iconType)}
           buttonStyle={{

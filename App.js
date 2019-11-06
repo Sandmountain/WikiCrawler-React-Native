@@ -32,7 +32,8 @@ import changeNavigationBarColor from 'react-native-navigation-bar-color';
 import MainBody from './app/Components/MainBody/MainBody';
 import Setup from './app/Components/SetupBody/Setup';
 import HeaderStart from './app/Components/Header/HeaderStart';
-
+import Start from './app/Components/StartBody/StartBody';
+import HighScore from './app/Components/HighScore/HighScoreBody';
 import LargeIconButton from './app/Components/CustomComponents/LargeIconButton/LargeIconButton';
 
 const backgroundImage = require('./app/Images/bg.jpg');
@@ -46,7 +47,9 @@ const theme = {
 
 const RootStack = createStackNavigator(
   {
+    Start: Start,
     Home: Setup,
+    Highscore: HighScore,
     Main: MainBody,
   },
   {
@@ -80,6 +83,7 @@ class App extends Component {
     };
   }
   render() {
+    console.disableYellowBox = true;
     return (
       <Provider store={store}>
         <ImageBackground source={backgroundImage} style={styles.background}>

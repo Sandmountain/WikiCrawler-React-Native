@@ -1,4 +1,9 @@
-import {SET_QUERY, GET_SEARCH_RESULTS, LOADING_ARTICLES} from './types';
+import {
+  SET_QUERY,
+  SET_GOAL_ARTICLE,
+  SET_GOAL_SUMMARY,
+  LOADING_ARTICLES,
+} from './types';
 
 const axios = require('axios');
 
@@ -10,6 +15,29 @@ export const setQuery = query => async dispatch => {
     });
   } catch (error) {
     console.log('setQuery', error);
+  }
+};
+
+export const setSummary = summary => async dispatch => {
+  co;
+  try {
+    dispatch({
+      type: SET_GOAL_SUMMARY,
+      payload: summary,
+    });
+  } catch (error) {
+    console.log('setSummary', error);
+  }
+};
+
+export const setGoal = article => async dispatch => {
+  try {
+    dispatch({
+      type: SET_GOAL_ARTICLE,
+      payload: article,
+    });
+  } catch (error) {
+    console.log('setGoal', error);
   }
 };
 

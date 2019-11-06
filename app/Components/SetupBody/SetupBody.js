@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, BackHandler} from 'react-native';
+import {Text, View, StyleSheet, BackHandler, Alert} from 'react-native';
 import {Card, Button} from 'react-native-elements';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
 import {createAppContainer} from 'react-navigation';
 
 import RandomArticle from './RandomArticle/RandomArticle';
-import ChosenArticle from './ChosenArticle/ChosenArticle';
+import CustomArticle from './CustomArticle/CustomArticle';
 import LargeIconButton from '../CustomComponents/LargeIconButton/LargeIconButton';
 
 class SetupBody extends Component {
-  state = {
-    activeComponent: 'Random',
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeComponent: 'Random',
+    };
+  }
   render() {
     return (
       <View style={styles.body}>
@@ -41,13 +44,30 @@ class SetupBody extends Component {
             {this.state.activeComponent === 'Random' ? (
               <RandomArticle />
             ) : (
-              <ChosenArticle />
+              <CustomArticle />
             )}
           </View>
         </View>
       </View>
     );
   }
+
+  componentDidMount() {
+    BackHandler.addEventListener('hardwareBackPress', this.onBackPress);
+  }
+
+  componentWillUnmount() {
+    BackHandler.removeEventListener('hardwareBackPress', this.onBackPress);
+  }
+
+  onBackPress = () => {
+    //TODO: Handle backpress to go to main mainmenu, and not only toggle. Alert with return to main menu?
+    this.setState({
+      activeComponent:
+        this.state.activeComponent === 'Random' ? 'Custom' : 'Random',
+    });
+    return true;
+  };
 
   callbackFunction = childData => {
     this.setState({activeComponent: childData});

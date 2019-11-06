@@ -68,7 +68,36 @@ class MainBody extends Component {
           <Header />
           <Articles scroll={this.scrollToTop} />
         </ScrollView>
-        {/* SearchBar that will only work when dragging a word into it. Searching for function to check "whether a word is held"
+      </View>
+    );
+  }
+
+  scrollToTop = () => {
+    this.refs._scrollView.scrollTo({
+      x: 0,
+      y: 0,
+      animated: true,
+    });
+  };
+  // reset the values when entering app
+  componentDidMount() {
+    Clipboard.setString('');
+  }
+}
+
+const mapStateToProps = state => ({
+  query: state.gameData.query,
+  articles: state.gameData.articles,
+  loadingArticles: state.gameData.loadingArticles,
+});
+
+export default connect(
+  mapStateToProps,
+  {setQuery, getArticles},
+)(withTheme(MainBody));
+
+//TODO: Remove this code
+/* SearchBar that will only work when dragging a word into it. Searching for function to check "whether a word is held"
         <SearchBar
           onFocus={Keyboard.dismiss}
           ref={search => (this.search = search)}
@@ -92,70 +121,44 @@ class MainBody extends Component {
           disabled={true}
           onChangeText={this.updateSearch}
           value={search}></SearchBar>
-          */}
-      </View>
-    );
-  }
-
-  scrollToTop = () => {
-    this.refs._scrollView.scrollTo({
-      x: 0,
-      y: 0,
-      animated: true,
-    });
-  };
-  updateButton = async () => {
-    //Getting the clibord value for updating directly
-    var clipboardValue = await Clipboard.getString();
-    await this.props.setQuery(clipboardValue);
-
-    if (this.state.confirmed === false) {
-      if (this.props.query) {
-        this.setState({query: `Serach for ${this.props.query}?`});
-        this.setState({confirmeValue: 1});
-      } else {
-        this.setState({query: `Nothing on Clipboard`});
-        this.setState({confirmeValue: 0});
-      }
-
-      //Setting colors for the button
-      this.props.query
-        ? this.setState({confirmStyle: 'green'})
-        : this.setState({confirmStyle: 'orange'});
-
-      //Next time the button is called, the "confirmation" will be run
-      this.setState({confirmed: true});
-    } else {
-      //Call update cards here because the word has been confirmed in (this.props.query)
-      if (this.state.confirmeValue == 1) {
-        await this.props.getArticles(this.props.query);
-        this.setState({confirmeValue: 0});
-      }
-
-      //Resetting both the clipboard and the props to have no value
-      this.props.setQuery('');
-      Clipboard.setString('');
-      this.setState({confirmStyle: 'blue'});
-
-      //Changing the state.
-      this.setState({query: `Copy a Word`});
-      this.setState({confirmed: false});
-    }
-  };
-
-  // reset the values when entering app
-  componentDidMount() {
-    Clipboard.setString('');
-  }
-}
-
-const mapStateToProps = state => ({
-  query: state.gameData.query,
-  articles: state.gameData.articles,
-  loadingArticles: state.gameData.loadingArticles,
-});
-
-export default connect(
-  mapStateToProps,
-  {setQuery, getArticles},
-)(withTheme(MainBody));
+         
+         
+         updateButton = async () => {
+          //Getting the clibord value for updating directly
+          var clipboardValue = await Clipboard.getString();
+          await this.props.setQuery(clipboardValue);
+      
+          if (this.state.confirmed === false) {
+            if (this.props.query) {
+              this.setState({query: `Serach for ${this.props.query}?`});
+              this.setState({confirmeValue: 1});
+            } else {
+              this.setState({query: `Nothing on Clipboard`});
+              this.setState({confirmeValue: 0});
+            }
+      
+            //Setting colors for the button
+            this.props.query
+              ? this.setState({confirmStyle: 'green'})
+              : this.setState({confirmStyle: 'orange'});
+      
+            //Next time the button is called, the "confirmation" will be run
+            this.setState({confirmed: true});
+          } else {
+            //Call update cards here because the word has been confirmed in (this.props.query)
+            if (this.state.confirmeValue == 1) {
+              await this.props.getArticles(this.props.query);
+              this.setState({confirmeValue: 0});
+            }
+      
+            //Resetting both the clipboard and the props to have no value
+            this.props.setQuery('');
+            Clipboard.setString('');
+            this.setState({confirmStyle: 'blue'});
+      
+            //Changing the state.
+            this.setState({query: `Copy a Word`});
+            this.setState({confirmed: false});
+          }
+        };
+*/

@@ -15,6 +15,7 @@ class Setup extends Component {
       </View>
     );
   }
+  /*
   componentDidMount() {
     BackHandler.addEventListener('hardwareBackPress', this.onBackPress);
   }
@@ -25,7 +26,7 @@ class Setup extends Component {
 
   onBackPress = () => {
     if (true) {
-      Alert.alert('Confirm exit', 'Do you want to exit App?', [
+      Alert.alert('Confirm exit', 'Do you want to return to the main menu?', [
         {text: 'CANCEL', style: 'cancel'},
         {
           text: 'OK',
@@ -38,5 +39,6 @@ class Setup extends Component {
 
     return true;
   };
+  */
 }
 export default Setup;
